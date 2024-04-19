@@ -1,0 +1,175 @@
+html {
+    font-size: 16px
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: hsl(0, 0%, 7%);
+}
+
+.card {
+    padding: 2.5rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+h2 {
+    color: #fff;
+}
+
+img {
+    width: 40%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.first {
+    text-align: center;
+}
+
+.london {
+    color: hsl(75, 94%, 57%);
+    font-weight: 530;
+    font-size: 0.9rem;
+    margin-top: -0.9rem;
+}
+
+.btn {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-weight: 540;
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
+}
+
+.btn-white {
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+/* Media queries */
+
+
+/* XS */
+
+@media (min-width: 320px) {
+    main {
+        max-width: 80vw;
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 390px) {
+    main {
+        max-width: 80vw;
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 475px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 480px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+
+/* sm */
+
+@media (min-width: 640px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+
+/* md */
+
+@media (min-width: 768px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        max-width: 35vw;
+        font-size: 0.9em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+
+/* xL */
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.9em;
+    }
+}
+
+
+/* 2xL */
+
+@media (min-width: 1280px) {
+    main {
+        max-width: 25vw;
+        font-size: 1.1em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
