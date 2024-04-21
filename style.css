@@ -57,11 +57,11 @@ img {
     font-size: 0.85rem;
     padding: 0.5rem;
     background-color: hsl(0, 0%, 20%);
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .btn:hover {
